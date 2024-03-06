@@ -1,0 +1,176 @@
+
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 980px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+    padding: 0;
+}
+
+/* CABEÇALHO DO SITE*/
+header {
+    font-size: 12px;
+    margin-top: 25px;
+}
+
+/* LOGO DO SITE */
+
+.logofw {
+    width: 194px; 
+    height: 146px; 
+    position: absolute; /* Posicionamento absoluto em relação ao seu contêiner pai */
+    top: 2px; /* Posição a partir do topo do cabeçalho/banner */
+    left: 25%; /* Centraliza horizontalmente */
+    transform: translateX(-50%); /* Desloca metade da sua largura para esquerda */
+    background-color: #1b8e99; /* Cor de fundo do logo */
+    
+}
+
+/* PRIMEIRO MENU */
+
+.menu {
+    background-color: #1b8e99;
+    text-align: right;
+    padding-top: 45px;
+    align-items: center; /* Isso centraliza verticalmente os botões do contêiner .menu */
+    justify-content: flex-end; /* Isso alinha os botões à direita.*/
+    padding: 16px 0;
+}
+
+.menu button {
+    background: none;
+    border: none;
+    color: #ffffff;
+    font-size: 12px;
+    margin: 0 12px;
+}
+
+/* DIV COM IMAGEM BACKGROUND */
+
+.banner {
+     background-image: url('../img/banner.fw.png'); /* Corrigido para corresponder ao nome do arquivo correto */
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    padding-top: 324px;
+    background-color: #1b8e99; /* Cor de fundo do banner se a imagem não carregar */
+}
+
+/* SEGUNDO MENU */
+
+.cabecalho {
+    background-color: #660000; 
+    text-align: left;
+    align-items: center;
+    justify-content: flex-end;
+    padding-bottom: 45px;
+    padding: 16px 0;
+}
+
+.cabecalho a {
+    background: none;
+    border: none;
+    color: #ffffff;
+    font-size: 12px;
+    margin: 0 12px;
+    text-decoration: none;
+}
+
+/* Seção Loja Virtual 
+.lojaVirtual {
+    background-color: #ffffff; /* Branco *
+    padding: 20px 0;
+}
+
+.lojaVirtual h1 {
+    font-family: Tahoma, sans-serif;
+    font-size: 30px;
+    color: #000000; /* Preto *
+    text-align: center;
+}
+
+.lojaVirtual hr {
+    border: 0;
+    height: 1px;
+    background-color: #666000;
+    margin: 10px 0;
+}
+
+/* Seção de produtos *
+.drone1 img,
+.drone2 img,
+.drone3 img {
+    width: 280px; /* Ajuste para a largura real das imagens *
+}
+
+/* Seção de Serviços *
+.servicos {
+    background-color: #ffffff; /* Branco *
+    padding: 20px 0;
+}
+
+.servicos h1 {
+    font-family: Tahoma, sans-serif;
+    font-size: 30px;
+    color: #666000; /* Cor quaternária *
+    text-align: center;
+}
+
+.servicos hr {
+    border: 0;
+    height: 1px;
+    background-color: #11be89;
+    margin: 10px 0;
+}
+
+/* Estilização das imagens e texto das subseções de Serviços *
+.cursos img,
+.manutencoes img,
+.filmagensAereas img {
+    width: 300px; /* Ajuste para a largura real das imagens *
+    display: inline-block;
+    margin: 10px;
+}
+
+/* Footer *
+footer {
+    background-color: #444444; /* Cor terciária *
+    color: #ffffff; /* Branco *
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer img {
+    width: 96px; /* Ajuste para a largura real das imagens *
+}
+
+footer p {
+    font-family: Tahoma, sans-serif;
+    font-size: 14px;
+    margin: 10px 0;
+}
+
+/* Estilização específica do footer com as imagens e texto *
+.final {
+    background-color: #11be89;
+    color: #ffffff; /* Branco *
+    padding: 5px 0;
+    font-family: Tahoma, sans-serif;
+    font-size: 14px;
+}
+
+.final img {
+    width: 96px; /* Ajuste para a largura real das imagens *
+}
+
+.final p {
+    display: inline-block;
+    margin: 10px;
+}
+*/
