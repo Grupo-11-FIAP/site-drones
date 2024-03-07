@@ -154,40 +154,73 @@ header {
     display: inline-block;
     margin: 10px;
 }
+*/
 
-/* Footer *
 footer {
-    background-color: #444444; /* Cor terciária *
-    color: #ffffff; /* Branco *
-    text-align: center;
-    padding: 20px 0;
-}
-
-footer img {
-    width: 96px; /* Ajuste para a largura real das imagens *
-}
-
-footer p {
-    font-family: Tahoma, sans-serif;
-    font-size: 14px;
-    margin: 10px 0;
-}
-
-/* Estilização específica do footer com as imagens e texto *
-.final {
-    background-color: #11be89;
-    color: #ffffff; /* Branco *
+    background-color: white;
+    color: #ffffff;
     padding: 5px 0;
     font-family: Tahoma, sans-serif;
     font-size: 14px;
 }
 
-.final img {
-    width: 96px; /* Ajuste para a largura real das imagens *
+footer .drones {
+    display: block;
+    overflow: auto;
 }
 
-.final p {
-    display: inline-block;
-    margin: 10px;
+footer .drones img {
+    vertical-align: top;
 }
-*/
+
+footer .drones img.segundo {
+    margin-left: 250px;
+}
+
+footer .drones img.terceiro {
+    margin-left: 105px;
+}
+
+footer .drones img.professor {
+    position: absolute;
+    margin-top: -34px;
+    margin-left: 80px;
+}
+
+footer .content {
+    background-color: #1b8e99;
+    display: flex;
+    align-items: center;
+    padding: 0 25px;
+    height: 96px;
+}
+
+footer .content img {
+    width: 130px;
+    height: 32.5px;
+}
+
+footer .content .text {
+    margin-left: 70px;
+}
+
+footer .content .text p {
+    font-family: Tahoma, sans-serif;
+    padding-right: 130px;
+    color: white;
+    font-size: 14px;
+}
+
+footer .prof {
+    display: flex;
+    height: 26px;
+    justify-content: right;
+    padding: 0 130px;
+    align-items: center;
+    background-color: #660000;
+}
+
+footer .prof p {
+    color: white;
+    font-size: 14px;
+}
