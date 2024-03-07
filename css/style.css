@@ -26,7 +26,7 @@ header {
     height: 146px; 
     position: absolute; /* Posicionamento absoluto em relação ao seu contêiner pai */
     top: 2px; /* Posição a partir do topo do cabeçalho/banner */
-    left: 25%; /* Centraliza horizontalmente */
+    left: 32%; /* Centraliza horizontalmente */
     transform: translateX(-50%); /* Desloca metade da sua largura para esquerda */
     background-color: #1b8e99; /* Cor de fundo do logo */
     
@@ -49,6 +49,16 @@ header {
     color: #ffffff;
     font-size: 12px;
     margin: 0 12px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.menu button:hover {
+    background-color: #92c9ce;
+}
+
+.menu #transition {
+    background-color: #92c9ce;
 }
 
 /* DIV COM IMAGEM BACKGROUND */
@@ -80,6 +90,13 @@ header {
     font-size: 12px;
     margin: 0 12px;
     text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.cabecalho a:hover {
+    background-color: #ffffff;
+    color: #660000;
 }
 
 /* Seção Loja Virtual 
