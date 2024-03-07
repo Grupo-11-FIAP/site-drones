@@ -26,7 +26,7 @@ header {
     height: 146px; 
     position: absolute; /* Posicionamento absoluto em relação ao seu contêiner pai */
     top: 2px; /* Posição a partir do topo do cabeçalho/banner */
-    left: 32%; /* Centraliza horizontalmente */
+    left: 30.2%; /* Centraliza horizontalmente */
     transform: translateX(-50%); /* Desloca metade da sua largura para esquerda */
     background-color: #1b8e99; /* Cor de fundo do logo */
     
@@ -53,8 +53,19 @@ header {
     transition: background-color 0.3s ease;
 }
 
-.menu button:hover {
+.menu li:hover {
     background-color: #92c9ce;
+    color: white;
+    border-bottom: 30px;
+    border-top: 30px;
+    margin-bottom: -32px;
+    padding-bottom: 20px;
+}
+.menu-items {
+    align-items: center;
+}
+.menu-items li {
+    display: inline-block;
 }
 
 .menu #transition {
@@ -97,53 +108,86 @@ header {
 .cabecalho a:hover {
     background-color: #ffffff;
     color: #660000;
+    margin-bottom: 20px;
+    border-bottom: 30px;
+    padding-bottom: 20px;
+    padding-top: 22px;
 }
 
-/* Seção Loja Virtual 
+/* SEÇÃO LOJA VIRTUAL */ 
 .lojaVirtual {
-    background-color: #ffffff; /* Branco *
+    background-color: #ffffff; /* Branco */
     padding: 20px 0;
+    min-height: 600px;
 }
 
 .lojaVirtual h1 {
     font-family: Tahoma, sans-serif;
-    font-size: 30px;
-    color: #000000; /* Preto *
-    text-align: center;
+    font-size: 22px;
+    color: #660000; 
+    text-align: left;
+    padding-top: 25px;
 }
 
 .lojaVirtual hr {
     border: 0;
-    height: 1px;
-    background-color: #666000;
+    height: 4px;
+    width: 860px;
+    background-color: #660000;
     margin: 10px 0;
 }
 
-/* Seção de produtos *
-.drone1 img,
-.drone2 img,
-.drone3 img {
-    width: 280px; /* Ajuste para a largura real das imagens *
+.lojaVirtual #imagemDrone {
+    height: 77px;
+    width: 125px;
+    position: absolute;
+    top: 460px; /* Posição a partir do topo do cabeçalho/banner */
+    right: 21%; /* Centraliza horizontalmente */
+    transform: translateX(-50%); /* Desloca metade da sua largura para esquerda */
 }
 
-/* Seção de Serviços *
+.lojaVirtual .drone1
+.lojaVirtual .drone2
+.lojaVirtual .drone3 {
+    min-width: 300px;
+    min-height: 376px;
+}
+
+.lojaVirtual .drone1 #imgDrone1 {
+   /* top: 2px; /* Posição a partir do topo do cabeçalho/banner 
+    left: 30.2%; 
+    transform: translateX(-50%); /* Desloca metade da sua largura para esquerda */
+}
+
+/* Seção de Serviços */
 .servicos {
-    background-color: #ffffff; /* Branco *
+    background-color: #ffffff; /* Branco */
     padding: 20px 0;
 }
 
 .servicos h1 {
     font-family: Tahoma, sans-serif;
-    font-size: 30px;
-    color: #666000; /* Cor quaternária *
-    text-align: center;
+    font-size: 22px;
+    color: #1c8e99; 
+    text-align: left;
+    padding-top: 25px;
 }
 
 .servicos hr {
     border: 0;
-    height: 1px;
-    background-color: #11be89;
+    height: 4px;
+    width: 860px;
+    background-color: #1c8e99;
     margin: 10px 0;
+}
+
+.servicos #imagemDrone2 {
+    height: 77px;
+    width: 125px;
+    position: absolute;
+    top: 1100px; /* Posição a partir do topo do cabeçalho/banner */
+    right: 21%; /* Centraliza horizontalmente */
+    transform: translateX(-50%); /* Desloca metade da sua largura para esquerda */
 }
 
 /* Estilização das imagens e texto das subseções de Serviços *
