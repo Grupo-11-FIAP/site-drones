@@ -99,24 +99,183 @@ header {
     color: #660000;
 }
 
-/* Seção Loja Virtual 
-.lojaVirtual {
-    background-color: #ffffff; /* Branco *
-    padding: 20px 0;
+.drones {
+    display: flex;
+    place-content: space-between;
+    min-height: 376px;
+    max-height: 376px;
 }
 
-.lojaVirtual h1 {
-    font-family: Tahoma, sans-serif;
-    font-size: 30px;
-    color: #000000; /* Preto *
+.img-drone {
+    max-height: 280px;
+}
+
+.drone1 {
+    max-width: 300px;
+    border: 2px solid #1b8e99;
+}
+
+.background-footer-drone {
+    background-color: #1b8e99;
+    height: 96px;
+    display: flex;
+    align-items: center;
+    margin-top: 26px;
+}
+
+.drone-title {
+    font-size: 14px;
+    font-weight: bold;
     text-align: center;
+    align-items: center;
+    padding: 8px;
+    background-color: #b2d3d6;
+    color: #1b8e99;
+    margin: 4px;
 }
 
-.lojaVirtual hr {
-    border: 0;
-    height: 1px;
-    background-color: #666000;
-    margin: 10px 0;
+.drone-content {
+    max-width: 240px;
+    word-wrap: break-word;
+    font-size: 12px;
+    color: #92c9ce;
+    margin-left: 8px;
+}
+
+.footer-drone {
+    display: flex;
+    align-items: center;
+
+}
+
+.footer-drone-text {
+    display: flex;
+    flex-direction: column;
+    padding-right: 18px;
+    margin-left: 8px;
+}
+
+
+.drone-footer-1 {
+    color: #ffffff;
+    font-size: 30px;
+    font-family: Tahoma, sans-serif;
+    font-weight: normal;
+}
+
+.drone-footer-2 {
+    color: #ffffff;
+    font-size: 14px;
+    font-family: Tahoma, sans-serif;
+    font-weight: normal;
+}
+
+.carrinho {
+    background-color: #ffffff;
+    width: 60px;
+    border-radius: 4px;
+}
+
+.drone2 {
+    max-width: 300px;
+    border: 2px solid #660000;
+}
+
+.background-footer-drone-drone-red {
+    background-color: #660000;
+    height: 96px;
+    display: flex;
+    align-items: center;
+    margin-top: 26px;
+}
+
+.drone-title-drone-red {
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    align-items: center;
+    padding: 8px;
+    background-color: #b19090;
+    color: #660000;
+    margin: 4px;
+}
+
+.drone-content-drone-red {
+    max-width: 240px;
+    word-wrap: break-word;
+    font-size: 12px;
+    color: #660000;
+    margin-left: 8px;
+}
+
+.footer-drone-drone-red {
+    display: flex;
+    align-items: center;
+
+}
+
+.footer-drone-text-drone-red {
+    display: flex;
+    flex-direction: column;
+    padding-right: 18px;
+    margin-left: 8px;
+}
+
+
+.drone-footer-1-drone-red {
+    color: #ffffff;
+    font-size: 30px;
+    font-family: Tahoma, sans-serif;
+    font-weight: normal;
+}
+
+.drone-footer-2-drone-red {
+    color: #ffffff;
+    font-size: 14px;
+    font-family: Tahoma, sans-serif;
+    font-weight: normal;
+}
+
+.carrinho-drone-red {
+    background-color: #ffffff;
+    width: 60px;
+    border-radius: 4px;
+}
+
+.drone3 {
+    max-width: 300px;
+    border: 2px solid #1b8e99;
+}
+
+.background-footer-drone2 {
+    background-color: #1b8e99;
+    height: 96px;
+    display: flex;
+    align-items: center;
+    margin-top: 14px;
+}
+
+.divide-section{
+    border: 8px solid #444444;
+    margin-bottom: 16px;
+}
+
+.lojaVirtual {
+    background-color: #ffffff;
+    padding-bottom: 8px;
+    padding-top: 16px;
+}
+
+.lojaVirtualContent {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    margin-left: 8px;
+    font-weight: bold;
+    color: #660000;
+}
+
+.hrLojaVirtual {
+    border: 1px solid #660000;
 }
 
 /* Seção de produtos *
