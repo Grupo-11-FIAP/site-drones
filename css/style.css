@@ -355,35 +355,122 @@ header {
     width: 125px;
     position: absolute;
     top: 980px; /* Posição a partir do topo do cabeçalho/banner */
-    right: 20.8%; /* Centraliza horizontalmente */
+    right: 20.3%; /* Centraliza horizontalmente */
     transform: translateX(-50%); /* Desloca metade da sua largura para esquerda */
 }
 
-/* Estilização das imagens e texto das subseções de Serviços *
-.cursos img,
-.manutencoes img,
-.filmagensAereas img {
-    width: 300px; /* Ajuste para a largura real das imagens *
-    display: inline-block;
-    margin: 10px;
+/* Estilização cursos */
+
+.cursos {
+    background-color: #ffffff;
+    max-width: 304px;
+    border: 2px solid #660000;
+    border-bottom: 4px;
 }
 
-/* Footer *
-footer {
-    background-color: #444444; /* Cor terciária *
-    color: #ffffff; /* Branco *
-    text-align: center;
-    padding: 20px 0;
+.cursos-content {
+    max-width: 240px;
+    word-wrap: break-word;
+    font: tahoma, normal;
+    font-size: 16px;
+    color: #660000;
+    margin-left: 8px;
 }
 
-footer img {
-    width: 96px; /* Ajuste para a largura real das imagens *
+.footer-cursos-text #descricao {
+    color: #660000;
+    font: tahoma, normal;
+    font-size: 12px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    padding-right: 18px;
+    margin-left: 8px;
+    margin-bottom: 160px;
 }
 
-footer p {
-    font-family: Tahoma, sans-serif;
-    font-size: 14px;
-    margin: 10px 0;
+.background-footer-cursos {
+    background-color: #660000;
+    height: 10px;
+    display: flex;
+    align-items: center;
+    margin-top: 150px;
+}
+
+/* Estilização manutenções*/
+
+.manutencoes {
+    background-color: #ffffff;
+    max-width: 304px;
+    border: 2px solid #1b8e99;
+    border-bottom: 4px;
+}
+
+.manutencoes-content {
+    max-width: 240px;
+    word-wrap: break-word;
+    font: tahoma, normal;
+    font-size: 16px;
+    color: #1b8e99;
+    margin-left: 8px;
+}
+
+.footer-manutencoes-text #descricao {
+    color: #1b8e99;
+    font: tahoma, normal;
+    font-size: 12px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    padding-right: 18px;
+    margin-left: 8px;
+    margin-bottom: 160px;
+}
+
+.background-footer-manutencoes {
+    background-color: #1b8e99;
+    height: 10px;
+    display: flex;
+    align-items: center;
+    margin-top: 150px;
+}
+
+/* Estilização Filmagens Aéreas */
+
+.filmagemAerea {
+    background-color: #ffffff;
+    max-width: 304px;
+    border: 2px solid #660000;
+    border-bottom: 4px;
+}
+
+.filmagemAerea-content {
+    max-width: 240px;
+    word-wrap: break-word;
+    font: tahoma, normal;
+    font-size: 16px;
+    color: #660000;
+    margin-left: 8px;
+}
+
+.footer-filmagemAerea-text #descricao {
+    color: #660000;
+    font: tahoma, normal;
+    font-size: 12px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    padding-right: 18px;
+    margin-left: 8px;
+    margin-bottom: 160px;
+}
+
+.background-footer-filmagemAerea {
+    background-color: #660000;
+    height: 10px;
+    display: flex;
+    align-items: center;
+    margin-top: 150px;
 }
 
 /* Estilização específica do footer com as imagens e texto */
