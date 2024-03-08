@@ -320,6 +320,12 @@ header {
     margin-bottom: 23px;
 }
 
+.hrServices {
+    border: 2px solid #1b8e99;
+    width: 865px;
+    margin-bottom: 23px;
+}
+
 .linha {
     background-color: #444444;
     padding-top: 20px;
@@ -330,6 +336,13 @@ header {
 .servicos {
     background-color: #ffffff; /* Branco */
     padding: 20px 0;
+}
+
+.services {
+    display: flex;
+    place-content: space-between;
+    min-height: 376px;
+    max-height: 376px;
 }
 
 .servicos h1 {
@@ -386,7 +399,7 @@ header {
     flex-direction: column;
     padding-right: 18px;
     margin-left: 8px;
-    margin-bottom: 160px;
+    margin-bottom: 205px;
 }
 
 .background-footer-cursos {
@@ -394,7 +407,7 @@ header {
     height: 10px;
     display: flex;
     align-items: center;
-    margin-top: 150px;
+    margin-top: 205px;
 }
 
 /* Estilização manutenções*/
@@ -424,7 +437,7 @@ header {
     flex-direction: column;
     padding-right: 18px;
     margin-left: 8px;
-    margin-bottom: 160px;
+    margin-bottom: 210px;
 }
 
 .background-footer-manutencoes {
@@ -432,7 +445,7 @@ header {
     height: 10px;
     display: flex;
     align-items: center;
-    margin-top: 150px;
+    margin-top: 205px;
 }
 
 /* Estilização Filmagens Aéreas */
@@ -462,7 +475,7 @@ header {
     flex-direction: column;
     padding-right: 18px;
     margin-left: 8px;
-    margin-bottom: 160px;
+    margin-bottom: 210px;
 }
 
 .background-footer-filmagemAerea {
@@ -470,7 +483,7 @@ header {
     height: 10px;
     display: flex;
     align-items: center;
-    margin-top: 150px;
+    margin-top: 204px;
 }
 
 /* Estilização específica do footer com as imagens e texto */
