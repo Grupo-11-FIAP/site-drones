@@ -13,7 +13,7 @@
     padding: 0;
 }
 
-/* CABEÇALHO DO SITE*/
+/* ----------------------------CABEÇALHO DO SITE----------------------------*/
 header {
     font-size: 12px;
     margin-top: 25px;
@@ -59,7 +59,10 @@ header {
     border-bottom: 30px;
     border-top: 30px;
     margin-bottom: -32px;
-    padding-bottom: 20px;
+    margin-top: -32px;
+    padding-bottom: 21px;
+    padding-top: 21px;
+    transition: background-color 0.3s ease;
 }
 .menu-items {
     align-items: center;
@@ -102,7 +105,6 @@ header {
     margin: 0 12px;
     text-decoration: none;
     cursor: pointer;
-    transition: background-color 0.3s ease;
 }
 
 .cabecalho a:hover {
@@ -112,54 +114,219 @@ header {
     border-bottom: 30px;
     padding-bottom: 20px;
     padding-top: 22px;
+    transition: background-color 0.3s ease;
 }
 
-/* SEÇÃO LOJA VIRTUAL */ 
-.lojaVirtual {
-    background-color: #ffffff; /* Branco */
-    padding: 20px 0;
-    min-height: 600px;
-}
+/* ----------------------------SEÇÃO LOJA VIRTUAL---------------------------- */ 
 
-.lojaVirtual h1 {
-    font-family: Tahoma, sans-serif;
-    font-size: 22px;
-    color: #660000; 
-    text-align: left;
-    padding-top: 25px;
-}
-
-.lojaVirtual hr {
-    border: 0;
-    height: 4px;
-    width: 860px;
-    background-color: #660000;
-    margin: 10px 0;
-}
-
-.lojaVirtual #imagemDrone {
+.iconeDrone {
     height: 77px;
     width: 125px;
     position: absolute;
-    top: 460px; /* Posição a partir do topo do cabeçalho/banner */
-    right: 21%; /* Centraliza horizontalmente */
+    top: 455px; /* Posição a partir do topo do cabeçalho/banner */
+    right: 20.7%; /* Centraliza horizontalmente */
     transform: translateX(-50%); /* Desloca metade da sua largura para esquerda */
 }
 
-.lojaVirtual .drone1
-.lojaVirtual .drone2
-.lojaVirtual .drone3 {
-    min-width: 300px;
+.drones {
+    display: flex;
+    place-content: space-between;
     min-height: 376px;
+    max-height: 376px;
 }
 
-.lojaVirtual .drone1 #imgDrone1 {
-   /* top: 2px; /* Posição a partir do topo do cabeçalho/banner 
-    left: 30.2%; 
-    transform: translateX(-50%); /* Desloca metade da sua largura para esquerda */
+.img-drone {
+    max-height: 280px;
 }
 
-/* Seção de Serviços */
+/* estilização drone 1 */ 
+
+.drone1 {
+    max-width: 300px;
+    border: 2px solid #1b8e99;
+}
+
+.background-footer-drone {
+    background-color: #1b8e99;
+    height: 96px;
+    display: flex;
+    align-items: center;
+    margin-top: 26px;
+}
+
+.drone-title {
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    align-items: center;
+    padding: 8px;
+    background-color: #b2d3d6;
+    color: #1b8e99;
+    margin: 4px;
+}
+
+.drone-content {
+    max-width: 240px;
+    word-wrap: break-word;
+    font-size: 12px;
+    color: #92c9ce;
+    margin-left: 8px;
+}
+
+.footer-drone {
+    display: flex;
+    align-items: center;
+
+}
+
+.footer-drone-text {
+    display: flex;
+    flex-direction: column;
+    padding-right: 18px;
+    margin-left: 8px;
+}
+
+
+.drone-footer-1 {
+    color: #ffffff;
+    font-size: 30px;
+    font-family: Tahoma, sans-serif;
+    font-weight: normal;
+}
+
+.drone-footer-2 {
+    color: #ffffff;
+    font-size: 14px;
+    font-family: Tahoma, sans-serif;
+    font-weight: normal;
+}
+
+.carrinho {
+    background-color: #ffffff;
+    width: 60px;
+    border-radius: 4px;
+}
+
+/* estilização drone 2 */
+
+.drone2 {
+    max-width: 300px;
+    border: 2px solid #660000;
+}
+
+.background-footer-drone-drone-red {
+    background-color: #660000;
+    height: 96px;
+    display: flex;
+    align-items: center;
+    margin-top: 26px;
+}
+
+.drone-title-drone-red {
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    align-items: center;
+    padding: 8px;
+    background-color: #b19090;
+    color: #660000;
+    margin: 4px;
+}
+
+.drone-content-drone-red {
+    max-width: 240px;
+    word-wrap: break-word;
+    font-size: 12px;
+    color: #660000;
+    margin-left: 8px;
+}
+
+.footer-drone-drone-red {
+    display: flex;
+    align-items: center;
+
+}
+
+.footer-drone-text-drone-red {
+    display: flex;
+    flex-direction: column;
+    padding-right: 18px;
+    margin-left: 8px;
+}
+
+
+.drone-footer-1-drone-red {
+    color: #ffffff;
+    font-size: 30px;
+    font-family: Tahoma, sans-serif;
+    font-weight: normal;
+}
+
+.drone-footer-2-drone-red {
+    color: #ffffff;
+    font-size: 14px;
+    font-family: Tahoma, sans-serif;
+    font-weight: normal;
+}
+
+.carrinho-drone-red {
+    background-color: #ffffff;
+    width: 60px;
+    border-radius: 4px;
+}
+
+/* estilização drone 3 */ 
+
+.drone3 {
+    max-width: 300px;
+    border: 2px solid #1b8e99;
+}
+
+.background-footer-drone2 {
+    background-color: #1b8e99;
+    height: 96px;
+    display: flex;
+    align-items: center;
+    margin-top: 14px;
+}
+
+.divide-section{
+    border: 8px solid #444444;
+    margin-bottom: 16px;
+}
+
+/* estilização da section inteira */ 
+
+.lojaVirtual {
+    background-color: #ffffff;
+    padding-bottom: 8px;
+    padding-top: 30px;
+}
+
+/* estilização do título + linha */ 
+
+.lojaVirtualContent {
+    font-family: Arial, sans-serif;
+    font-size: 22px;
+    margin-bottom: 7px;
+    margin-top: 10px;
+    font-weight: bold;
+    color: #660000;
+}
+
+.hrLojaVirtual {
+    border: 2px solid #660000;
+    width: 865px;
+    margin-bottom: 23px;
+}
+
+.linha {
+    background-color: #444444;
+    padding-top: 20px;
+    margin-top: 20px;
+}
+
+/* ----------------------------SEÇÃO DE SERVIÇOS---------------------------- */
 .servicos {
     background-color: #ffffff; /* Branco */
     padding: 20px 0;
@@ -171,22 +338,24 @@ header {
     color: #1c8e99; 
     text-align: left;
     padding-top: 25px;
+    margin-top: -10px;
 }
 
 .servicos hr {
     border: 0;
-    height: 4px;
-    width: 860px;
+    height: 3px;
+    width: 865px;
     background-color: #1c8e99;
     margin: 10px 0;
+    margin-bottom: 40px;
 }
 
 .servicos #imagemDrone2 {
     height: 77px;
     width: 125px;
     position: absolute;
-    top: 1100px; /* Posição a partir do topo do cabeçalho/banner */
-    right: 21%; /* Centraliza horizontalmente */
+    top: 980px; /* Posição a partir do topo do cabeçalho/banner */
+    right: 20.8%; /* Centraliza horizontalmente */
     transform: translateX(-50%); /* Desloca metade da sua largura para esquerda */
 }
 
@@ -217,21 +386,72 @@ footer p {
     margin: 10px 0;
 }
 
-/* Estilização específica do footer com as imagens e texto *
-.final {
-    background-color: #11be89;
-    color: #ffffff; /* Branco *
+/* Estilização específica do footer com as imagens e texto */
+footer {
+    background-color: white;
+    color: #ffffff;
     padding: 5px 0;
     font-family: Tahoma, sans-serif;
     font-size: 14px;
 }
 
-.final img {
-    width: 96px; /* Ajuste para a largura real das imagens *
+footer .drones {
+    display: block;
+    overflow: auto;
 }
 
-.final p {
-    display: inline-block;
-    margin: 10px;
+footer .drones img {
+    vertical-align: top;
 }
-*/
+
+footer .drones img.segundo {
+    margin-left: 250px;
+}
+
+footer .drones img.terceiro {
+    margin-left: 105px;
+}
+
+footer .drones img.professor {
+    position: absolute;
+    margin-top: 300px;
+    margin-left: 80px;
+}
+
+footer .content {
+    background-color: #1b8e99;
+    display: flex;
+    align-items: center;
+    padding: 0 25px;
+    height: 96px;
+}
+
+footer .content img {
+    width: 130px;
+    height: 32.5px;
+}
+
+footer .content .text {
+    margin-left: 70px;
+}
+
+footer .content .text p {
+    font-family: Tahoma, sans-serif;
+    padding-right: 130px;
+    color: white;
+    font-size: 14px;
+}
+
+footer .prof {
+    display: flex;
+    height: 26px;
+    justify-content: right;
+    padding: 0 130px;
+    align-items: center;
+    background-color: #660000;
+}
+
+footer .prof p {
+    color: white;
+    font-size: 14px;
+}
