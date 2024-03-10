@@ -341,8 +341,8 @@ header {
 .services {
     display: flex;
     place-content: space-between;
-    min-height: 376px;
-    max-height: 376px;
+    min-height: 311px;
+    max-height: 311px;
 }
 
 .servicos h1 {
@@ -379,6 +379,7 @@ header {
     max-width: 304px;
     border: 2px solid #660000;
     border-bottom: 4px;
+    
 }
 
 .cursos-content {
@@ -397,9 +398,9 @@ header {
     font-weight: bold;
     display: flex;
     flex-direction: column;
-    padding-right: 18px;
+    padding-right: 5px;
     margin-left: 8px;
-    margin-bottom: 205px;
+    margin-bottom: 140px;
 }
 
 .background-footer-cursos {
@@ -407,7 +408,7 @@ header {
     height: 10px;
     display: flex;
     align-items: center;
-    margin-top: 205px;
+    margin-top: 140px;
 }
 
 /* Estilização manutenções*/
@@ -437,7 +438,7 @@ header {
     flex-direction: column;
     padding-right: 18px;
     margin-left: 8px;
-    margin-bottom: 210px;
+    margin-bottom: 140px;
 }
 
 .background-footer-manutencoes {
@@ -445,7 +446,7 @@ header {
     height: 10px;
     display: flex;
     align-items: center;
-    margin-top: 205px;
+    margin-top: 140px;
 }
 
 /* Estilização Filmagens Aéreas */
@@ -473,9 +474,9 @@ header {
     font-weight: bold;
     display: flex;
     flex-direction: column;
-    padding-right: 18px;
+    padding-right: 14px;
     margin-left: 8px;
-    margin-bottom: 210px;
+    margin-bottom: 140px;
 }
 
 .background-footer-filmagemAerea {
@@ -483,14 +484,14 @@ header {
     height: 10px;
     display: flex;
     align-items: center;
-    margin-top: 204px;
+    margin-top: 140px;
 }
 
 /* Estilização específica do footer com as imagens e texto */
 footer {
     background-color: white;
     color: #ffffff;
-    padding: 5px 0;
+    padding: 50px 0;
     font-family: Tahoma, sans-serif;
     font-size: 14px;
 }
@@ -514,7 +515,7 @@ footer .drones img.terceiro {
 
 footer .drones img.professor {
     position: absolute;
-    margin-top: 300px;
+    margin-top: -30px;
     margin-left: 80px;
 }
 
@@ -524,6 +525,7 @@ footer .content {
     align-items: center;
     padding: 0 25px;
     height: 96px;
+    margin-top: -331px;
 }
 
 footer .content img {
